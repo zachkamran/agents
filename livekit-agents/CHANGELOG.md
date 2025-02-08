@@ -1,5 +1,13 @@
 # livekit-agents
 
+## 0.12.12
+
+### Patch Changes
+
+- fix agent transcription could not be disabled - [#1448](https://github.com/livekit/agents/pull/1448) ([@davidzhao](https://github.com/davidzhao))
+
+- Added an additional field in LLM capabilities class to check if model providers support function call history within chat context without needing function definitions. - [#1441](https://github.com/livekit/agents/pull/1441) ([@jayeshp19](https://github.com/jayeshp19))
+
 ## 0.12.11
 
 ### Patch Changes
